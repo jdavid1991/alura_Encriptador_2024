@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #F3F5FC;
+}
+
+.contenedor__principal {
+  margin: 40px;
+}
+
+.logo {
+  width: 60px;
+}
+
+textarea {
+  margin: 100px;
+  border: none;
+  outline: none;
+  background-color: #F3F5FC;
+  width: 680px;
+  /* Ancho fijo en píxeles */
+  height: 288px;
+  /* Altura fija en píxeles */
+  resize: none;
+  /* Evitar que el usuario redimensione el textarea */
+  font-size: 24px;
+  line-height: 24px;
+  color: #0a3871;
+
+}
+
+textarea::placeholder {
+  color: #0a3871;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+
+.contenedor__info {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.frame{
+  margin-left: 100px;
+}
+
+.card__toy {
+  width: 400px;
+  height: 800px;
+  background-color: white;
+  border-radius: 32px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
+
+}
+
+.texto__principal {
+  width: 336px;
+  height: 122px;
+  gap: 16px;
+  top: 100px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  align-content: center;
+  color: #343a40;
+}
+
+.texto {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #495057;
+}
+
+.parrafo__icono{
+  display: flex;
+  gap: 5px;
+  margin-top: 170px;
+  margin-left: 95px;
+  
+}
+
+.parrafo__texto{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #495057;
+}
+
+.botones{
+  display: flex;
+  gap: 24px;
+  margin-left: 90px;
+  
+}
+
+button{
+  padding: 24px;
+  width: 336px;
+  height: 67px;
+  border-radius: 24px;
+  border: 1px;
+  cursor: pointer;
+}
+
+.boton__encriptar{
+  background-color: #0a3871;
+  color: white;
+}
+
+.boton__desencriptar{
+  background-color: #D8DFE8;
+  color: #0a3871;
+  border: 1px solid #0a3871;
+}
